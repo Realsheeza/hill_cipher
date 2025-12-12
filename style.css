@@ -1,0 +1,123 @@
+/* ------------------ */
+/* Global Styles       */
+/* ------------------ */
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #FCF5E;   /* soft cream background */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------ */
+/* Card Container      */
+/* ------------------ */
+
+.container {
+    width: 450px;
+    background-color: #FFC4C4;   /* light pink container */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    text-align: center;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+/* ------------------ */
+/* Headings            */
+/* ------------------ */
+
+h2 {
+    margin-top: 0;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+/* ------------------ */
+/* Input fields        */
+/* ------------------ */
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+    color: #ffffff;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: #FCF5EE;   /* input box color = background color */
+    color: #000;                 /* black text for readability */
+    transition: background 0.2s ease;
+}
+
+input::placeholder {
+    color: rgba(0,0,0,0.5);
+}
+
+input:focus {
+    background-color: #FFF8F3;   /* slightly brighter on focus */
+}
+
+/* ------------------ */
+/* Buttons             */
+/* ------------------ */
+
+button {
+    width: 48%;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #EE6983;   /* vibrant pink */
+    color: white;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #D8566E;
+    transform: scale(1.05);
+}
+
+/* ------------------ */
+/* Button Box          */
+/* ------------------ */
+
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* ------------------ */
+/* Optional Output Box */
+/* ------------------ */
+
+#output {
+    margin-top: 15px;
+    padding: 12px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 12px;
+    color: #000;
+    font-size: 16px;
+    min-height: 50px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3x3 Hill Cipher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="container glass">
+            <h2>🔐 3×3 Hill Cipher</h2>
+
+            <label>Plaintext:</label>
+            <input type="text" id="plaintext" placeholder="Enter text to encrypt">
+
+            <label>Ciphertext:</label>
+            <input type="text" id="ciphertext" placeholder="Enter text to decrypt">
+
+            <label>Key (9 comma-separated numbers):</label>
+            <input type="text" id="key" placeholder="e.g. 6,24,1,13,16,10,20,17,15">
+
+            <div class="btn-box">
+                <button class="btn encrypt" onclick="encryptText()">Encrypt</button>
+                <button class="btn decrypt" onclick="decryptText()">Decrypt</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="hillcipher.js"></script>
+</body>
+</html>
